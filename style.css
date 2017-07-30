@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------SECTIONS------------------*/
+body {
+	background: #9FDDEA
+}
+
+#IceRink {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	width: 1200px;
+	height: 900px;
+	background:url(images/IceRink.png) bottom center no-repeat;
+}
+
+#Details {
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+	top: 1200px;
+	width: 1200px;
+	height: 696px;
+	background:url(images/Details.png) bottom left no-repeat;
+}
+
+
+#Travel {
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+	top: 2400px;
+	width: 1200px;
+	height: 873px;
+	background:url(images/Travel.png) bottom left no-repeat;
+}
+
+#AboutUs {
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+	top: 3600px;
+	width: 1200px;
+	height: 868px;
+	background: url(images/AboutUs.png) bottom left no-repeat;
+}
+
+#BridalPartyLeft {
+	position: relative;
+	left: 50%;
+	margin-left: -609px;
+	top: 4934px;
+	width: 517px;
+	height: 734px;
+	background: url(images/BridalParty-Left.png) bottom left no-repeat;
+}
+
+#BridalParty {
+	position: relative;
+	left: 50%;
+	margin-left: -92px;
+	top: 4200px;
+	width: 601px;
+	height: 864px;
+	background: url(images/BridalParty-Right.png) bottom left no-repeat;
+}
+
+#Registry {
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+	top: 5400px;
+	width: 1200px;
+	height: 710px;
+	background:url(images/Registry.png) bottom left no-repeat;
+}
+
+#Bottom {
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+	top: 5400px;
+	width: 1200px;
+	height: 300px;
+}
+
+/*------------------IMAGES------------------*/
+#HeartPenguin {
+	position: absolute;
+	top: 123px;
+	left: 0px;
+	width: 379px;
+	height: 521px;
+	background: url(images/HeartPenguin.png) no-repeat center center;
+}
+
+#Countdown {
+	position: absolute;
+	top: 490px;
+	left: 660px;
+}
+
+#Map {
+	position: absolute;
+	top: 151px;
+	left: 68px;
+}
+
+#SuggestedHotel {
+	position: absolute;
+	top: 390px;
+	left: 574px;
+	width: 157px;
+	height: 25px;
+	cursor: pointer;
+	background: url(images/Button-Suggested.png) no-repeat;
+}
+#SuggestedHotel:hover {
+	background-position:0px -26px;
+}
+
+#AlternativeHotel {
+	position: absolute;
+	top: 651px;
+	left: 574px;
+	width: 150px;
+	height: 25px;
+	cursor: pointer;
+	background: url(images/Button-Alternate.png) no-repeat;
+}
+#AlternativeHotel:hover {
+	background-position:0px -26px;
+}
+
+#Amazon {
+	position: absolute;
+	top: 390px;
+	left: 590px;
+	width: 223px;
+	height: 83px;
+	cursor: pointer;
+	background: url(images/Amazon.png) no-repeat;
+}
+
+#CrateandBarrel {
+	position: absolute;
+	top: 390px;
+	left: 840px;
+	width: 223px;
+	height: 83px;
+	cursor: pointer;
+	background: url(images/CrateandBarrel.png) no-repeat;
+}
+
+/*------------------BRIDAL PARTY BUTTONS------------------*/
+#SeimiButton {
+	position: absolute;
+	top: 385px;
+	left: 70px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-F-Seimi.png) no-repeat;
+}
+#SeimiButton:hover {
+	background-position: 0px -53px;
+}
+
+#ArushiButton {
+	position: absolute;
+	top: 454px;
+	left: 70px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-F-Arushi.png) no-repeat;
+}
+#ArushiButton:hover {
+	background-position: 0px -53px;
+}
+
+#DebKButton {
+	position: absolute;
+	top: 523px;
+	left: 70px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-F-DebK.png) no-repeat;
+}
+#DebKButton:hover {
+	background-position: 0px -53px;
+}
+
+#GlorButton {
+	position: absolute;
+	top: 592px;
+	left: 70px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-F-Glor.png) no-repeat;
+}
+#GlorButton:hover {
+	background-position: 0px -53px;
+}
+
+#DebSButton {
+	position: absolute;
+	top: 661px;
+	left: 70px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-F-DebS.png) no-repeat;
+}
+#DebSButton:hover {
+	background-position: 0px -53px;
+}
+
+#EstherButton {
+	position: absolute;
+	top: 730px;
+	left: 70px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-F-Esther.png) no-repeat;
+}
+#EstherButton:hover {
+	background-position: 0px -53px;
+}
+
+#AjinButton {
+	position: absolute;
+	top: 385px;
+	left: 330px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-M-Ajin.png) no-repeat;
+}
+#AjinButton:hover {
+	background-position: 0px -53px;
+}
+
+#SungButton {
+	position: absolute;
+	top: 454px;
+	left: 330px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-M-Sung.png) no-repeat;
+}
+#SungButton:hover {
+	background-position: 0px -53px;
+}
+
+#BaoButton {
+	position: absolute;
+	top: 523px;
+	left: 330px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-M-Bao.png) no-repeat;
+}
+#BaoButton:hover {
+	background-position: 0px -53px;
+}
+
+#ChrisButton {
+	position: absolute;
+	top: 592px;
+	left: 330px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-M-Chris.png) no-repeat;
+}
+#ChrisButton:hover {
+	background-position: 0px -53px;
+}
+
+#IanButton {
+	position: absolute;
+	top: 661px;
+	left: 330px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-M-Ian.png) no-repeat;
+}
+#IanButton:hover {
+	background-position: 0px -53px;
+}
+
+#HarryButton {
+	position: absolute;
+	top: 730px;
+	left: 330px;
+	width: 193px;
+	height: 53px;
+	background: url(images/Button-M-Harry.png) no-repeat;
+}
+#HarryButton:hover {
+	background-position: 0px -53px;
+}
+
+/*------------------TOP NAVIGATION LINKS------------------*/
+
+a.toDetails {
+	position: absolute;
+	display: block;
+	left:865px;
+	top:450px;
+	width: 207px;
+	height: 26px;
+	background:url(images/toDetails.png) 0px 0px no-repeat;
+	background-position: 0px 0px;
+	cursor:pointer;
+}
+a.toDetails:hover, a.toDetails:active {
+	background-position:0px -26px;
+}
+
+a.toTravel {
+	position: absolute;
+	display: block;
+	left: 865px;
+	top: 490px;
+	width: 207px;
+	height: 26px;
+	background:url(images/toTravel.png) 0px 0px no-repeat;
+	background-position: 0px 0px;
+	cursor:pointer;
+}
+a.toTravel:hover, a.toTravel:active {
+	background-position:0px -26px;
+}
+
+a.toAboutUs {
+	position: absolute;
+	display: block;
+	left: 865px;
+	top: 530px;
+	width: 207px;
+	height: 26px;
+	background:url(images/toAboutUs.png) 0px 0px no-repeat;
+	background-position: 0px 0px;
+	cursor:pointer;
+}
+a.toAboutUs:hover, a.toAboutUs:active {
+	background-position:0px -26px;
+}
+
+a.toBridalParty {
+	position: absolute;
+	display: block;
+	left: 865px;
+	top: 570px;
+	width: 207px;
+	height: 26px;
+	background:url(images/toBridalParty.png) 0px 0px no-repeat;
+	background-position: 0px 0px;
+	cursor:pointer;
+}
+a.toBridalParty:hover, a.toBridalParty:active {
+	background-position:0px -26px;
+}
+
+a.toRegistry {
+	position: absolute;
+	display: block;
+	left: 865px;
+	top:610px;
+	width: 207px;
+	height: 26px;
+	background:url(images/toRegistry.png) 0px 0px no-repeat;
+	background-position: 0px 0px;
+	cursor:pointer;
+}
+a.toRegistry:hover, a.toRegistry:active {
+	background-position:0px -26px;
+}
+
+/*------------------NAVIGATIONS------------------*/
+#nav1 {
+	position:absolute;
+	top: 500px;
+	left: 1115px;
+	width: 64px;
+	height: 52px;
+}
+#nav2 {
+	position:absolute;
+	top: 700px;
+	left: 1115px;
+	width: 64px;
+	height: 52px;
+}
+#nav3 {
+	position:absolute;
+	top: 700px;
+	left: 1115px;
+	width: 64px;
+	height: 52px;
+}
+#nav4 {
+	position:absolute;
+	top: 695px;
+	left: 607px;
+	width: 64px;
+	height: 52px;
+}
+#nav5 {
+	position:absolute;
+	top: 500px;
+	left: 1115px;
+	width: 64px;
+	height: 52px;
+}
+
+a.up {
+	display:block;
+	width:48px;
+	height:48px;
+	background:url(images/Up.png) 0px 0px no-repeat;
+	cursor:pointer;
+}
+a.up:hover, a.up:active {
+	background-position:0px -48px;
+}
+a.down {
+	display:block;
+	position: relative;
+	top: 10px;
+	width:48px;
+	height:48px;
+	background:url(images/Down.png) 0px 0px no-repeat;
+	cursor:pointer;
+}
+a.top {
+	display:block;
+	position: relative;
+	top: 10px;
+	width:48px;
+	height:48px;
+	background:url(images/Top.png) 0px 0px no-repeat;
+	cursor:pointer;
+}
+a.down:hover, a.down:active, a.top:hover, a.top:active {
+	background-position:0px -48px;
+}
+
